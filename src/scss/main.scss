@@ -1,0 +1,13 @@
+@import "title";
+@import "scoreTable";
+@import "playerInput";
+@import "lapInput";
+
+.main {
+  background-color: rgb(235, 233, 231);
+  .tables {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
