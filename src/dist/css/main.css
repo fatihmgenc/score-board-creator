@@ -1,0 +1,68 @@
+.title {
+  background-color: #3faaaa;
+}
+
+.title h1 {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  margin: auto;
+  margin-top: 10px;
+  font-style: normal;
+  font-size: 44;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.scoreTable {
+  float: right;
+  margin: 15px;
+}
+
+.scoreTable Table {
+  background-color: #cee09c;
+  font-size: xx-large;
+}
+
+.playerInput {
+  float: left;
+  margin: 15px;
+}
+
+.playerInput Input {
+  margin: 5px;
+}
+
+.playerInput Button {
+  margin: 5px;
+  color: #b30c0c;
+  background-color: #3faaaa;
+}
+
+.lapInput {
+  margin: 15px;
+}
+
+.lapInput Input {
+  margin: 5px;
+}
+
+.lapInput Button {
+  margin: 5px;
+  color: #b30c0c;
+  background-color: #3faaaa;
+}
+
+.main {
+  background-color: #ebe9e7;
+}
+
+.main .tables {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}

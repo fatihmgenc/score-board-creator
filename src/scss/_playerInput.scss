@@ -1,0 +1,12 @@
+.playerInput {
+  float: left;
+  margin: 15px;
+  Input {
+    margin: 5px;
+  }
+  Button {
+    margin: 5px;
+    color: rgba($color: #b30c0c, $alpha: 1);
+    background-color: rgb(63, 170, 170);
+  }
+}

@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Title from "./components/title";
+import ScoreTable from "./components/scoreTable";
+import PlayerInput from "./components/playerInput";
+import LapInput from "./components/lapInput";
 
 function App() {
+  console.log('asdasd')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="main" >
+      <Title titleText="Welcome To EasyBoard" ></Title>
+      <div class="tables" >
+        <PlayerInput></PlayerInput>
+        <LapInput></LapInput>
+        <ScoreTable />
+      </div>
+    </div >
   );
 }
 
