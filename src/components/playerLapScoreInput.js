@@ -11,8 +11,6 @@ const PlayerLapScoreInput = ({ player, lap }) => {
     const lapCount = lap
     const { name, id, scores } = player;
     const [score, setScore] = useState(scores.length >= lapCount ? scores[lapCount] : 0)
-    console.log(name);
-
 
     const handleChange = (event) => {
         setScore(event.target.value)

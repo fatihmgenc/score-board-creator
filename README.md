@@ -1,6 +1,6 @@
 # React app for creating custom scoreboards and list ranks
 
--Includes practise of react-redux, hooks, Reactstrap, sass etc...
+-Includes practise of react-redux, hooks, Reactstrap, SASS etc...
 
 # For live: https://easyboard.netlify.app/
 

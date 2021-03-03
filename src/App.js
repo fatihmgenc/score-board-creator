@@ -4,7 +4,6 @@ import PlayerInput from "./components/playerInput";
 import LapInput from "./components/lapInput";
 
 function App() {
-  console.log('asdasd')
   return (
     <div className="main" >
       <Title titleText="Welcome To EasyBoard" ></Title>

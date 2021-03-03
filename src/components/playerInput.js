@@ -16,7 +16,6 @@ const PlayerInput = () => {
         setPlayerScore(parseInt(event.target.value));
     }
     const handleClickInit = () => {
-        console.log(playerScores)
         let data = playerScores.push(playerScore);
         setPlayerScores(data);
         handleClick();

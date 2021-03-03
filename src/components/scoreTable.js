@@ -11,7 +11,6 @@ const ScoreTable = (props) => {
     const calculateTotal = (player) => {
         let total = 0;
         for (var i in player.scores) { total += player.scores[i]; }
-        console.log(total, "calc")
         return total;
     }
     return (
